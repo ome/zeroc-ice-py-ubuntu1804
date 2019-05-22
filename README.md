@@ -1,7 +1,8 @@
 Ubuntu 18.04 Zeroc Ice Builder
 ==============================
 
-Builds Zeroc Icefor Ubuntu 18.04.
+Builds Zeroc Ice for Ubuntu 18.04.
+Ice 3.6 is built from source and a wheel is also created.
 
 This can be used to create installable binary packages as an alternative to compiling from source using pip.
 
