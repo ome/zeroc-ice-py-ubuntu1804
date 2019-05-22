@@ -2,6 +2,8 @@
 
 apt-get update && \
 apt-get install -y -q\
+    unzip \
+    wget \
     build-essential \
     db5.3-util \
     libbz2-dev \
@@ -13,6 +15,7 @@ apt-get install -y -q\
     mcpp \
     python-dev \
     python-pip \
+    python-setuptools \
     software-properties-common \
     zlib1g-dev
 
