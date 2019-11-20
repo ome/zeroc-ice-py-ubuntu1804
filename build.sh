@@ -11,7 +11,7 @@ cd ice-$ICE_VERSION/cpp
 
 make --silent && make install --silent
 
-tar cf - /opt/Ice-$ICE_VERSION/ | xz -z - > /dist/Ice-$ICE_VERSION-ubuntu1804-amd64.tar.xz
+tar -zcf /dist/Ice-$ICE_VERSION-ubuntu1804-amd64.tar.gz /opt/Ice-3.6.5/
 
 # Zeroc IcePy
 pip3 download "zeroc-ice==$ICE_VERSION"
