@@ -14,3 +14,12 @@ To build a different version of Ice:
     docker run --rm -v $PWD/dist:/dist builder VERSION
 
 Packages will be copied to `$PWD/dist`.
+
+
+Installing the binaries
+-----------------------
+
+```
+cd /opt
+tar -zxf Ice-3.6.5-ubuntu1804-amd64.tar.gz
+```
