@@ -1,7 +1,5 @@
-dist: xenial
-language: python
-cache: pip
-sudo: required
+---
+language: minimal
 services:
 - docker
 
@@ -15,14 +13,7 @@ deploy:
   - provider: releases
     api_key: $GITHUB_OAUTH_TOKEN
     file_glob: true
-    file: dist/zeroc*
-    skip_cleanup: true
-    on:
-      tags: true
-  - provider: releases
-    api_key: $GITHUB_OAUTH_TOKEN
-    file_glob: true
-    file: dist/ice*
+    file: dist/*
     skip_cleanup: true
     on:
       tags: true
