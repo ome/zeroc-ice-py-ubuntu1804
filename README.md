@@ -1,6 +1,8 @@
 Ubuntu 18.04 Zeroc Ice Builder
 ==============================
 
+[![Actions Status](https://github.com/ome/zeroc-ice-ubuntu1804/workflows/Build/badge.svg)](https://github.com/ome/zeroc-ice-ubuntu1804/actions)
+
 Builds Zeroc Ice for Ubuntu 18.04.
 Ice 3.6 is built from source and a wheel is also created.
 
